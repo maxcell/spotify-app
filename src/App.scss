@@ -1,0 +1,53 @@
+main {
+	max-width: 940px;
+	margin: 0 20px;
+	display: grid;
+	grid-gap: 10px;
+}
+
+@media screen and (min-width: 500px) {
+	main {
+		margin: 0 auto;
+		grid-template-columns: 1fr 3fr;
+	}
+}
+
+@supports (display: grid) {
+	main > * {
+		width: auto;
+		margin: 0;
+	}
+
+	header {
+		grid-column: 1 / -1;
+	}
+}
+
+ul#artist-list {
+	padding: 0;
+
+	li {
+		list-style-type: none;
+
+		& > button {
+			background: none;
+			border: none;
+
+			font-family: inherit;
+			font-size: 100%;
+			line-height: 1.15;
+			margin: 0;
+			overflow: visible;
+			text-transform: none;
+			text-align: left;
+
+			&:hover,
+			&:focus {
+				background-color: #e2e2e2;
+			}
+			&:active {
+				background-color: darken(#e2e2e2, 20%);
+			}
+		}
+	}
+}
