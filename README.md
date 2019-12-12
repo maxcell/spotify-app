@@ -26,6 +26,8 @@ npm start
 
 And the project should automatically open up on <http://localhost:3000>.
 
+You can also see it live on <https://spotify-app-client.now.sh>.
+
 ## Goal
 
 The goal of the exercise is to showcase how I design React components and how I
