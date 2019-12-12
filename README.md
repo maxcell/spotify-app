@@ -1,9 +1,8 @@
 # Spotify Sample Project
 
-This is Prince Wilson's code submission for Newsela. This project is a small
-exercise of showcasing a React frontend. It is worth noting that the design is
-simplistic and there are no tests but these are both spaces that the code
-submission can be improved!
+This project is a small exercise of showcasing a React frontend. 
+It is worth noting that the design is simplistic and there are no tests 
+but these are both spaces that the code submission can be improved!
 
 ## Getting Started
 
